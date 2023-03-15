@@ -1,0 +1,67 @@
+* ,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Brush Script MT", "Brush Script Std";
+}
+
+body {
+    border: solid 12vh #D2042D;
+    border-top: 0;
+    
+
+    background-color: gray;
+
+    display: flex;
+    flex: 1;
+
+    flex-flow: column nowrap;
+
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+
+}
+
+.topDesign{
+    background-color: #D2042D;
+    height: 12vh;
+    display: flex;
+
+
+    padding: 0;
+    margin: 0;
+
+    flex-direction: column;
+
+    justify-content: center;
+    
+
+    color: #fbc223;
+}
+
+h1,
+h3 {
+    margin: auto;
+}
+
+.btns{
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+}
+
+.btns > * {
+    border-radius: 50%;
+
+    height: 35px;
+    width: 35px;
+
+    font-size: .75rem;
+
+}
